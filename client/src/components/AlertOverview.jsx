@@ -21,7 +21,7 @@ console.log(
     highestSeverity)
     return (
 
-        <div className="text-[#e6dcdc] h-full w-full p-4 flex flex-col justify-between">
+        <div className="text-[#e6dcdc] h-full w-full p-4 flex flex-col gap-3  justify-between">
             <div className="flex gap-2 items-center ">
                 <span className="text-lg font-bold">Total Alerts :</span>
                 <span className="text-lg font-bold">{totalAlerts >=0 ? totalAlerts : "NA"}</span>

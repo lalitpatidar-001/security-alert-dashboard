@@ -1,8 +1,11 @@
 import React from 'react'
 
-const BigCard = () => {
+const BigCard = ({component,title}) => {
   return (
-    <div className="bg-[#1C1E22] rounded-[8px] h-[328px] w-full">BigCard</div>
+    <div className="bg-[#1C1E22] text-white items-center flex flex-col rounded-[8px] h-[400px] w-full">
+       <h3 className="text-lg font-semibold ">{title}</h3>
+      {component}
+    </div>
   )
 }
 

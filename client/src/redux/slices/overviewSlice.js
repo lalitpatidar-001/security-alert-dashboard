@@ -17,7 +17,7 @@ const overviewSlice = createSlice({
         addOverviewData: (state, action) => {
             security_data.map((item) => {
                 state.totalAlerts = security_data.length;
-                state.catagories = state.catagories.includes(item.alert?.category) ? state.catagories : [...state.catagories, item.alert?.category];
+                state.catagories = state.catagories.includes(item.alert?.category) || !item.alert?.category ? state.catagories : [...state.catagories, item.alert?.category];
 
                 state.noOfPortAffected = state.noOfPortAffected.includes(item.dest_port) ? state.noOfPortAffected : [...state.noOfPortAffected, item.dest_port];
 
