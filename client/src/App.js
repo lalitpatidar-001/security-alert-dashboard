@@ -1,6 +1,7 @@
 import HomeLayout from './layout/HomeLayout';
 import OverviewPage from './pages/OverviewPage';
-import {Routes , Route} from "react-router-dom"
+import {Routes , Route} from "react-router-dom";
+
 
 function App() {
   return (

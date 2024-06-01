@@ -1,4 +1,4 @@
-[
+export const security_data = [
     {
         "timestamp": "2019-01-02T03:50:09.097718",
         "flow_id": 52373568,

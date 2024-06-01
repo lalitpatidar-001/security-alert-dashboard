@@ -10,7 +10,7 @@
         "*.styles.jsx": "javascriptreact",
         "*.svg.js": "javascriptreact",
         "*.jsx": "javascriptreact",
-        "*.js": "javascriptreact",
+        "*.js": "javascript",
         ".stylelintrc": "jsonc"
     }
 }
